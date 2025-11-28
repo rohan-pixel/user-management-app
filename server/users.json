@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 101,
+      "name": "Liam Harper",
+      "username": "LHarper",
+      "email": "liam.harper@techlearnindia.com",
+      "role": "Frontend Developer"
+    },
+    {
+      "id": 103,
+      "name": "Noah Bennett",
+      "username": "NBennett",
+      "email": "noah.bennett@example.com",
+      "role": "IT Trainer"
+    },
+    {
+      "id": 104,
+      "name": "Olivia Stone",
+      "username": "OStone",
+      "email": "olivia.stone@example.com",
+      "role": "System Analyst"
+    },
+    {
+      "id": 105,
+      "name": "Ethan Cole",
+      "username": "ECole",
+      "email": "ethan.cole@example.com",
+      "role": "Backend Developer"
+    },
+    {
+      "id": 106,
+      "name": "Sophia Reed",
+      "username": "SReed",
+      "email": "sophia.reed@example.com",
+      "role": "Project Manager"
+    },
+    {
+      "id": 107,
+      "name": "Mason Clark",
+      "username": "MClark",
+      "email": "mason.clark@example.com",
+      "role": "Data Scientist"
+    },
+    {
+      "id": 108,
+      "name": "Ava Murphy",
+      "username": "AMurphy",
+      "email": "ava.murphy@example.com",
+      "role": "Data Engineer"
+    },
+    {
+      "id": 109,
+      "name": "Lucas Wright",
+      "username": "LWright",
+      "email": "lucas.wright@example.com",
+      "role": "Cloud Engineer"
+    },
+    {
+      "id": 110,
+      "name": "Mia Carter",
+      "username": "MCarter",
+      "email": "mia.carter@example.com",
+      "role": "Business English Trainer"
+    },
+    {
+      "id": 111,
+      "name": "Alexander King",
+      "username": "AKing",
+      "email": "alex.king@example.com",
+      "role": "Admin"
+    },
+    {
+      "id": 112,
+      "name": "Harper Lee",
+      "username": "HLee",
+      "email": "harper.lee@example.com",
+      "role": "Manager"
+    },
+    {
+      "name": "test",
+      "username": "sada",
+      "email": "asdasa@gmail.com",
+      "role": "dev",
+      "id": 113
+    }
+  ]
+}

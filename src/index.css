@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===================================================================
+   🔥 GLOBAL PREMIUM UI UPGRADE
+=================================================================== */
+
+/* ---- BODY STYLE ---- */
+body {
+  @apply bg-gradient-to-br from-gray-100 via-gray-50 to-gray-200 text-gray-900;
+
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Smooth global animation */
+  animation: pageFade 0.4s ease-out;
+}
+
+
+/* ===================================================================
+   ✨ SCROLLBAR – ultra modern
+=================================================================== */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(200, 200, 200, 0.2);
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #fbbf24, #d97706);
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #f59e0b, #b45309);
+}
+
+
+/* ===================================================================
+   🎨 UNIVERSAL TRANSITION BOOST
+=================================================================== */
+* {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+/* ===================================================================
+   🟦 PREMIUM CARDS
+=================================================================== */
+.card {
+  @apply bg-white/80 backdrop-blur-xl border border-gray-200 shadow-lg rounded-2xl p-6;
+
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ===================================================================
+   🔥 INPUT + FORM FIELDS (Premium)
+=================================================================== */
+input,
+select,
+textarea {
+  @apply border border-gray-300 rounded-xl px-4 py-2.5 bg-white/80 shadow-sm
+         focus:outline-none focus:ring-2 focus:ring-amber-500/70 focus:border-amber-500;
+
+  backdrop-filter: blur(6px);
+  transition: all 0.25s ease-in-out;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  @apply shadow-md;
+}
+
+
+/* ===================================================================
+   🟧 PREMIUM BUTTONS
+=================================================================== */
+button {
+  @apply rounded-xl px-5 py-2.5 font-semibold shadow-md 
+         bg-gradient-to-r from-amber-500 to-amber-600 text-white;
+
+  transition: 0.25s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 10px 22px rgba(245, 158, 11, 0.45);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button:disabled {
+  @apply opacity-40 cursor-not-allowed;
+  box-shadow: none !important;
+}
+
+
+/* ===================================================================
+   ✨ UTILITY CLASSES (Use anywhere in your project)
+=================================================================== */
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.35);
+}
+
+/* Slight scaling hover */
+.scale-hover:hover {
+  transform: scale(1.05);
+}
+
+/* Shadow hover */
+.shadow-hover:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.18);
+}
+
+/* Glassmorphism Box */
+.glass {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 18px;
+}
+
+
+/* ===================================================================
+   🎬 PAGE + COMPONENT ANIMATIONS
+=================================================================== */
+
+@keyframes pageFade {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes softPop {
+  0% { transform: scale(0.95); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Use this class on any element */
+.animate-softPop {
+  animation: softPop 0.3s ease-out;
+}
