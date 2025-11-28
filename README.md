@@ -34,7 +34,11 @@ Installation
 
 ```bash
 git clone https://github.com/rohan-pixel/user-management-app.git
-cd user-management-react
+
+````
+
+````
+cd user-management-app
 ````
 
 2. Install dependencies:
