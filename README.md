@@ -22,7 +22,7 @@ A modern **React** application for managing users with **CRUD operations**, feat
 
 ## Demo
 
-![Screenshot](https://res.cloudinary.com/secure-intelligent-agent/image/upload/fl_preserve_transparency/v1764348543/Screenshot_2025-11-28_221823_ywxeb1.jpg?_s=public-apps)
+![Screenshot](https://res.cloudinary.com/secure-intelligent-agent/image/upload/fl_preserve_transparency/v1764348543/Screenshot_2025-11-28_221823_ywxeb1.jpg)
 
 ---
 
@@ -53,7 +53,7 @@ A modern **React** application for managing users with **CRUD operations**, feat
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/user-management-react.git
+git clone https://github.com/rohan-pixel/user-management-app.git
 cd user-management-react
 ````
 
