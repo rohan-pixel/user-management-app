@@ -1,10 +1,9 @@
 
-````markdown
 User Management React App
 
 A modern React application for managing users with CRUD operations, featuring TailwindCSS, FontAwesome icons, responsive design.
-````
-## Demo
+
+Demo
 
 ![Screenshot](/public/demo.png)
 
